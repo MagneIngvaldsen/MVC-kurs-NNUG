@@ -12,55 +12,55 @@
 <div id="togglediv" class="togglediv">a.	Høyreklikk Models mappen i Solution Explorer, velg Add -> Class
 
     <br />
-    <img alt="2a" src="./img/2a.jpg" /><br />
+    <img alt="2a" src="./img/2a.png" /><br />
     b.	Skriv inn navn FrontPageViewModel, klikk Add</div>
 <div>3.	I klassen, implementer property SearchCriteria av typen SearchCriteria og FeaturedMovies av typen IList&lt;Movie&gt; <a href="#" class="toggle">Vis/skjul</a></div>
-<div class="togglediv">a. <img alt="3a" src="./img/3a.jpg" /></div>
+<div class="togglediv">a. <img alt="3a" src="./img/3a.png" /></div>
 <div>4.	Høyreklikk SearchCriteria velg Resolve -> Using ITverket.FinalCut.Domain.Entities.Enum <a href="#" class="toggle">Vis/skjul</a></div>
-<div class="togglediv">a. <img alt="4a" src="./img/4a.jpg" /></div>
+<div class="togglediv">a. <img alt="4a" src="./img/4a.png" /></div>
 <div>5.	Gjør det samme med Movie</div>
 <div>6.	Kontroller at prosjektet kompilerer, Build -> Build Solution (alternativt trykk F6).</div>
 <div>7.	Legg til en ny controller kalt HomeController <a href="#" class="toggle">Vis/skjul</a></div>
 <div class="togglediv">a.	Høyreklikk på Controllers mappen i Solution Explorer og velg Add -> Controller
     <br />
-    b. <img alt="7b" src="img/7b.jpg" />
+    b. <img alt="7b" src="img/7b.png" />
     <br />
 c.	Skriv inn navnet HomeController og klikk Add</div>
 <div>8.	Legg til medlemsvariabel _movieService av typen IMovieService i klassen, og initier i konstruktør<a href="#" class="toggle">Vis/skjul</a></div>
-<div class="togglediv">a. <img alt="8a" src="img/8a.jpg" /></div>
+<div class="togglediv">a. <img alt="8a" src="img/8a.png" /></div>
 <div>9.	Resolve IMovieService og MovieService som i punkt 5</div>
 <div>10.	I metoden Index, opprett en ny lokal variabel med navnet model av type FrontPageViewModel og returner model i View<a href="#" class="toggle">Vis/skjul</a></div>
-<div class="togglediv">a. <img alt="10a" src="./img/10a.jpg" /></div>
+<div class="togglediv">a. <img alt="10a" src="./img/10a.png" /></div>
 <div>11.	Resolve FrontPageViewModel slik som i punkt 5</div>
 <div>12.	Det mangler et view på Index metoden. Legg derfor til et strongly-typed view basert på FrontPageViewModel på Index metoden, scaffolding skal være Empty<a href="#" class="toggle">Vis/skjul</a></div>
 <div class="togglediv">a.	Høyreklikk på Index metoden og velg Add View <br />
-  <img alt="12a" src="./img/12a.jpg" />
+  <img alt="12a" src="./img/12a.png" />
     <br />
     b.	Huk av Create a strongly-typed view og velg Model class FrontPageViewModel
     <br />
     c.	Velg Scaffold template Empty og klikk Add <br />
-     <img alt="12c" src="./img/12c.jpg" />
+     <img alt="12c" src="./img/12c.png" />
  </div>
 <div>13.	Oppdater ViewBag.Title til “Final Cut – Frontpage”<a href="#" class="toggle">Vis/skjul</a></div>
 <div class="togglediv">a.	I Views\Home\Index.cshtml oppdater ViewBag.Title og legg til Layout: <br />
- <img alt="13a" src="./img/13a.jpg" />
+ <img alt="13a" src="./img/13a.png" />
  </div>
 <div>14.	Endre tekst i heading 2 elementet til Featured movies<a href="#" class="toggle">Vis/skjul</a></div>
-<div class="togglediv">a. <img alt="14a" src="./img/14a.jpg" /></div>
+<div class="togglediv">a. <img alt="14a" src="./img/14a.png" /></div>
 <div>15.	Vi skal nå implementere en “karusell” som presenterer filmene i på websiden, og det gjør vi ved å bygge opp en liste med film info. Start med å legge til et unordered list element under h2, id er “featuredMovies” og class er “jcarousel-skin-tango”<a href="#" class="toggle">Vis/skjul</a></div>
-<div class="togglediv">a. <img alt="15a" src="./img/15a.jpg" /></div>
+<div class="togglediv">a. <img alt="15a" src="./img/15a.png" /></div>
 <div>16.	Legg til en foreach i ul elementet for å iterere gjennom FeaturedMovies i Model<a href="#" class="toggle">Vis/skjul</a></div>
-<div class="togglediv">a. <img alt="16a" src="./img/16a.jpg" /></div>
+<div class="togglediv">a. <img alt="16a" src="./img/16a.png" /></div>
 <div>17.	Legg til et list item element i foreach<a href="#" class="toggle">Vis/skjul</a></div>
-<div class="togglediv">a. <img alt="17a" src="./img/17a.jpg" /></div>
+<div class="togglediv">a. <img alt="17a" src="./img/17a.png" /></div>
 <div>18.	Legg til et image element for cover, der alt er “cover” og src er filmens url til cover<a href="#" class="toggle">Vis/skjul</a></div>
-<div class="togglediv">a. <img alt="18a" src="./img/18a.jpg" /></div>
+<div class="togglediv">a. <img alt="18a" src="./img/18a.png" /></div>
 <div>19.	Legg til heading 4 element som omkranser en ActionLink. H4 elementet skal ha style “margin:0;padding:0;”. ActionLink skal gå mot Details metoden i MovieController<a href="#" class="toggle">Vis/skjul</a></div>
-<div class="togglediv">a. <img alt="19a" src="./img/19a.jpg" /></div>
+<div class="togglediv">a. <img alt="19a" src="./img/19a.png" /></div>
 <div>20.	Legg til labels for ytterligere film informasjon, Release date, Length og Genre<a href="#" class="toggle">Vis/skjul</a></div>
-<div class="togglediv">a. <img alt="20a" src="./img/20a.jpg" /></div>
+<div class="togglediv">a. <img alt="20a" src="./img/20a.png" /></div>
 <div>21.	Til slutt legg til følgende script nederst (under ul)<a href="#" class="toggle">Vis/skjul</a></div>
-<div class="togglediv">a. <img alt="21a" src="./img/21a.jpg" /></div>
+<div class="togglediv">a. <img alt="21a" src="./img/21a.png" /></div>
 <div>22.	Kjør web applikasjonen med å trykke F5, gå til root hvis det ikke skjer automatisk</div>
 
 
